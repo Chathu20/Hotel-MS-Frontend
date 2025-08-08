@@ -1,4 +1,4 @@
-import { useState } from "react":
+import { useState } from "react";
 import axios from "axios";
 import { FaSignInAlt, FaUserPlus } from "react-icons/fa"; // Importing icons
 import { RiArrowGoBackLine } from "react-icons/ri";
