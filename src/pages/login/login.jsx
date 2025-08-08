@@ -1,4 +1,4 @@
-/*import { useState } from "react":
+import { useState } from "react":
 import axios from "axios";
 import { FaSignInAlt, FaUserPlus } from "react-icons/fa"; // Importing icons
 import { RiArrowGoBackLine } from "react-icons/ri";
@@ -71,7 +71,7 @@ export default function AuthPage() {
     <div className="flex items-center justify-center w-screen h-screen bg-[url('/public/home-wall.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="relative z-10 flex flex-col items-center justify-center space-y-10 h-full w-full bg-black bg-opacity-50">
         <div className="bg-transparent w-[900px] h-[550px] flex">
-          {/* Left Side (Form Section) }
+          {/* Left Side (Form Section) */}
           <div
             className={`flex flex-col relative justify-center items-center w-[450px] h-[550px] backdrop-blur-md rounded-lg ${
               isLogin ? "order-1" : "order-2"
@@ -146,7 +146,7 @@ export default function AuthPage() {
             </button>
           </div>
 
-          {/* Right Side (Toggle Button Section) }
+          {/* Right Side (Toggle Button Section) */}
           <div
             className={`flex flex-col justify-center items-center text-[30px] hover:text-[40px] font-bold bg-c2 w-[450px] h-[550px] cursor-pointer ${
               isLogin ? "order-2" : "order-1"
@@ -176,4 +176,4 @@ export default function AuthPage() {
       </div>
     </div>
   );
-}*/
+}
