@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         c1: "#301748",
-        c2: "#03193bff",
+        c2: "#0c0c0cff",
         c3: "#2b4d68",
         c4: "#337882"
       },
