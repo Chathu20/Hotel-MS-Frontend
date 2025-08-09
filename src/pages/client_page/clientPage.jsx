@@ -8,7 +8,7 @@ export function CustomerPage() {
 			<Header />
             <div style={
                 {
-                    backgroundImage: "url(/hotel-home-wall.jpg)",
+                    backgroundImage: "url(/home-wall.jpg)",
                     backgroundSize: "cover",
                     backgroundAttachment: "fixed",
                     backgroundPosition: "center",
